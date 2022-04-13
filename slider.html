@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Slider</title>
+</head>
+<body>
+    <main>
+        <section class="banner">
+            <img src="./img/plane.png" alt="plane" data-aos="fade-down-right" data-aos-duration="3000" data-aos-easing="linear">
+            <h2 data-aos="flip-right" data-aos-duration="1500">Надійний авіапарк ATR 72-600</h2>
+        </section>
+        <div class="container">
+            <section class="special__offers">
+                <h3>Спеціальні пропозиції</h3>
+                <div class="block__offers">
+                    <div class="block__offers__content" data-aos="fade-down-right" data-aos-duration="1500" data-aos-delay="1000">
+                        <div class="block__offers__text">
+                            <div>
+                                <img class="special__offers_img" src="./img/plane.svg" alt="plane">
+                            </div>
+                            <div>
+                                <p class="city__route">Київ (Бориспіль) — <br>Запоріжжя</p>
+                                <p class="data__route">01 Листопад 2021 - 26 Березень 2022</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="data__route">від <span class="price__ticket">850₴</span></p>
+                        </div>
+                    </div>
+                    <div class="block__offers__content" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="3000">
+                        <div class="block__offers__text">
+                            <div>
+                                <img class="special__offers_img" src="./img/plane.svg" alt="plane">
+                            </div>
+                            <div>
+                                <p class="city__route">Київ (Бориспіль) — <br>Запоріжжя</p>
+                                <p class="data__route">01 Листопад 2021 - 26 Березень 2022</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="data__route">від <span class="price__ticket">850₴</span></p>
+                        </div>
+                    </div>
+                    <div class="block__offers__content" data-aos="fade-up-right" data-aos-duration="1500" data-aos-delay="3000">
+                        <div class="block__offers__text">
+                            <div>
+                                <img class="special__offers_img" src="./img/plane.svg" alt="plane">
+                            </div>
+                            <div>
+                                <p class="city__route">Київ (Бориспіль) — <br>Запоріжжя</p>
+                                <p class="data__route">01 Листопад 2021 - 26 Березень 2022</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="data__route">від <span class="price__ticket">850₴</span></p>
+                        </div>
+                    </div>
+                    <div class="block__offers__content" data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="3000">
+                        <div class="block__offers__text">
+                            <div>
+                                <img class="special__offers_img" src="./img/plane.svg" alt="plane">
+                            </div>
+                            <div>
+                                <p class="city__route">Київ (Бориспіль) — <br>Запоріжжя</p>
+                                <p class="data__route">01 Листопад 2021 - 26 Березень 2022</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="data__route">від <span class="price__ticket">850₴</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <h3>Новини</h3>
+            <div class="slider__box">
+                <div class="slider">
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="./img/banner1.jpg" alt="black-friday">
+                        </div>
+                        <div class="slider__text">
+                            <p>Чорна п'ятниця наближається! Тільки з 26 до 29 листопада отримайте знижку на квитки Україною.</p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="./img/banner2.jpg" alt="black-friday">
+                        </div>
+                        <div class="slider__text">
+                            <p>З 10.11 до 29.11.2021 придбайте авіапроїзний будь-якого виду на сайті авіакомпанії та беріть участь у розіграші подарунка* від WINDROSE — жовто-блакитного авіапроїзного на 10 перельотів.</p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="./img/banner3.jpg" alt="black-friday">
+                        </div>
+                        <div class="slider__text">
+                            <p>Кожен пасажир може взяти участь у акції та отримати вишуканий подарунок — золотий кулон у формі літачка.</p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__img">
+                            <img src="./img/banner1.jpg" alt="black-friday">
+                        </div>
+                        <div class="slider__text">
+                            <p>Чорна п'ятниця наближається! Тільки з 26 до 29 листопада отримайте знижку на квитки Україною.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+              slidesToShow: 2.99,
+              dots: false,
+              arrows: false,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+              infinite: true,
+              responsive: [
+                {
+                    breakpoint: 769,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    }
+                },
+
+                {
+                    breakpoint: 376,
+                    settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    }
+                }
+            ]
+            });
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

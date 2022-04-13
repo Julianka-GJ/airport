@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', 'Tachoma', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#158296), to(rgba(113, 199, 236, 0.8)));
+  background-image: linear-gradient(to bottom, #158296, rgba(113, 199, 236, 0.8));
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0 100px;
+}
+
+.banner h2 {
+  font-size: 54px;
+  max-width: 500px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container h3 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.special__offers {
+  margin-bottom: 50px;
+}
+
+.block__offers {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  row-gap: 16px;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+}
+
+.block__offers__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 19px 13px 24px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 5px #4f5b66;
+          box-shadow: 0 1px 5px #4f5b66;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.block__offers__content:hover {
+  -webkit-box-shadow: 0 1px 20px #d24c4c;
+          box-shadow: 0 1px 20px #d24c4c;
+}
+
+.block__offers__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.special__offers_img {
+  width: 26px;
+  height: 26px;
+  padding-right: 10px;
+}
+
+.city__route {
+  font-size: 16px;
+  color: #383f4a;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.price__ticket {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e50000;
+}
+
+.data__route {
+  font-size: 14px;
+  line-height: 24px;
+  color: #9399A2;
+}
+
+.slider__box {
+  margin-bottom: 80px;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider__item {
+  padding: 15px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__img img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.slider__text {
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 14px;
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0 20px;
+  }
+  .banner h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .banner img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    max-width: 80%;
+  }
+  .container {
+    text-align: center;
+  }
+  .block__offers__content {
+    padding: 10px;
+  }
+  .special__offers_img {
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .banner {
+    margin: 30px 0 15px;
+  }
+  .banner h2 {
+    font-size: 28px;
+    max-width: 80%;
+  }
+  .container h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .block__offers {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 16px;
+    -webkit-column-gap: 0;
+            column-gap: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
